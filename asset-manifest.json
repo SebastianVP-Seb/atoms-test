@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SebastianVP-Seb/atoms-test.git/static/css/main.48b3230f.css",
+    "main.js": "/SebastianVP-Seb/atoms-test.git/static/js/main.eab6108e.js",
+    "static/media/bg.jpg": "/SebastianVP-Seb/atoms-test.git/static/media/bg.3ed131d9d2de535fd7cc.jpg",
+    "static/media/world-bg.png": "/SebastianVP-Seb/atoms-test.git/static/media/world-bg.90e95dcc641394a6303d.png",
+    "index.html": "/SebastianVP-Seb/atoms-test.git/index.html",
+    "main.48b3230f.css.map": "/SebastianVP-Seb/atoms-test.git/static/css/main.48b3230f.css.map",
+    "main.eab6108e.js.map": "/SebastianVP-Seb/atoms-test.git/static/js/main.eab6108e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b3230f.css",
+    "static/js/main.eab6108e.js"
+  ]
+}
