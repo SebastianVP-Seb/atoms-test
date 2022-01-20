@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Easy from './pages/easy/Easy';
+import Features from './pages/features/Features';
+import Footer from './pages/footer/Footer';
+import NavbarN from './components/navbar/NavbarN';
+import Pricing from './pages/pricing/Pricing';
+import Questions from './pages/questions/Questions';
+import Build from './pages/build/Build';
+import World from './pages/world/World';
+import { BrowserRouter } from 'react-router-dom';
+import BackG from './components/bg/BackG';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+      <NavbarN />
+      <BackG />
+
+
+      {/* <Build /> */}
+      <Features />
+      <Easy />
+      <Pricing />
+      <World />
+      <Questions />
+      <Footer />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+
+*,
+::after,
+::before {
+    // box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+// html {
+//     font-size: 63%;
+// }
+
+body {
+    background-color: white;
+    // // margin: 0% 6rem;
+
+    // .bg-img {
+
+    // }
+}
+
+.title_h2 {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
